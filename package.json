@@ -1,0 +1,18 @@
+{
+  "name": "hakim-web",
+  "version": "1.3.0",
+  "description": "Hakim: Visual Reading Intelligence & Interactive Knowledge Graph Platform",
+  "type": "module",
+  "homepage": "https://ws0x.github.io/hakim-web",
+  "scripts": {
+    "build": "node build.js",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^26.3.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}
