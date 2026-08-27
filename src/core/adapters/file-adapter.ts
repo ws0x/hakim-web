@@ -1,5 +1,5 @@
 import type { BookItem, HighlightItem, AnnotationColor } from "../types.js";
-import { normalizeTitle, normalizeAuthor, normalizeText } from "@hakim/domain";
+import { normalizeTitle, normalizeAuthor, normalizeText } from "../normalizer.js";
 import { ReadwiseCsvParser } from "../csv/readwise-csv-parser.js";
 
 export class FileImportAdapter {
