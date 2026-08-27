@@ -9,9 +9,11 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
   },
+  "dependencies": {
+    "esbuild": "^0.25.0"
+  },
   "devDependencies": {
     "@types/node": "^26.3.0",
-    "esbuild": "^0.25.0",
     "typescript": "^5.7.3",
     "vitest": "^3.0.5"
   }
